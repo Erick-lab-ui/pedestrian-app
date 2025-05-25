@@ -1,0 +1,53 @@
+/* Base Navbar Styling */
+.navbar {
+  background-color: #222;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #444;
+}
+
+.navbar a.active {
+  background-color: #00bcd4;
+  color: white;
+}
+.navbar {
+  display: flex !important;          /* force flex */
+  flex-direction: row !important;    /* force horizontal */
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* 🔻 MEDIA QUERY: for screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem;
+  }
+
+  .navbar a {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+  }
+}

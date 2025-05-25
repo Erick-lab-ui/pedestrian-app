@@ -1,0 +1,51 @@
+.admin-container {
+  padding: 30px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  overflow-x: auto; /* Enable horizontal scroll on small screens */
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  min-width: 600px; /* Prevent table from breaking on very small screens */
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.admin-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* 🔻 Responsive tweaks for small screens */
+@media screen and (max-width: 768px) {
+  .admin-container {
+    padding: 15px;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .admin-table {
+    min-width: 100%;
+    font-size: 12px;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    padding: 6px;
+  }
+}

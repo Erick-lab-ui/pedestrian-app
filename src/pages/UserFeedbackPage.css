@@ -1,0 +1,49 @@
+/* UserFeedbackPage.css */
+
+.user-feedback-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.user-feedback-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.user-feedback-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.user-feedback-table th,
+.user-feedback-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-feedback-table thead {
+  background-color: #2980b9;
+  color: white;
+}
+
+.user-feedback-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-feedback-table tbody tr:hover {
+  background-color: #d6e9f8;
+  cursor: default;
+}
+
+.user-feedback-table th {
+  font-weight: 600;
+}
