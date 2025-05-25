@@ -32,12 +32,12 @@ function FeedbackPage() {
     }
   };
 
-  const clearAllFeedback = () => {
-    localStorage.removeItem('feedbackList');
-    setFeedbacks([]);
-    setSelectedSign('');
-    setComment('');
-  };
+  // const clearAllFeedback = () => {
+  //   localStorage.removeItem('feedbackList');
+  //   setFeedbacks([]);
+  //   setSelectedSign('');
+  //   setComment('');
+  // };
 
   return (
     <div className="feedback-container">
